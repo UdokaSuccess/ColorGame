@@ -1,0 +1,137 @@
+ html{
+	background-color: black;
+}
+.square{
+	width: 30%;
+	background: purple;
+	padding-bottom: 30%;
+	float: right;
+	margin: 1.66%;
+	border-radius: 14px
+}
+#container{
+	margin-bottom: 50px;
+	margin-right: auto;
+	margin-top: 12px;
+	margin-left: auto;
+	max-width: 400px;
+
+}
+#card{
+	padding: 10px;
+	padding-bottom: 18px;
+	text-align: center;
+	background-color: navy;
+}
+h1{
+	font-family: roboto;
+	font-weight: 500px;
+	font-size: 40px;
+	color: whitesmoke;
+	text-transform:  uppercase;
+	letter-spacing: 0.2rem
+}
+.navbar{
+	display: flex;
+	align-items: center;
+	padding: 0px;
+	margin: 0px;
+    max-height: 29px;
+	background-color: #fff;
+}
+nav{
+	flex: 1;
+	text-align: center;
+}
+nav ul {
+	display: inline-block;
+	list-style-type: none;}
+ nav ul li{
+	display: inline-block;
+	margin-right: 25px;
+	direction: horizontal;
+}
+nav ul li a {
+	font-size: 20px;
+	font-family: roboto;
+	text-decoration: none;
+}
+#new{
+	margin-right: 350px;
+	font-size: 20.5px
+}
+#tryAgain{
+	margin-right: 100px
+}
+.pool {
+	background: #fff3; 
+}
+
+button{
+	transition: 0.2s
+}
+.newColor{
+padding: 2px 5px;
+}
+/* ------------------------------------------media query---------------------------------------------*/
+@media only screen and (max-width: 600px){
+#container{
+	margin: 0 auto;
+	max-width: 400px;
+
+}
+h1{
+	font-family: roboto;
+	font-weight: 800;
+	font-size: 1.3rem;
+	color: whitesmoke;
+	text-transform:  uppercase;
+	letter-spacing: 0.1rem
+}
+.navbar{
+	display: flex;
+	align-items: center;
+	padding: 0px;
+	margin: 0px;
+    max-height: 2rem;
+	background-color: #fff;
+	width: 100%
+}
+nav{
+	flex: 1;
+	text-align: center;
+
+}
+nav ul {
+	display: inline-block;
+	list-style-type: none;}
+ nav ul li{
+	display: inline-block;
+	margin-right: 0;
+	direction: horizontal;
+}
+nav ul li a {
+	font-size: 1.1rem;
+	font-family: roboto;
+	text-decoration: none;
+}
+#new{
+	margin-right: 1rem;
+	font-size: 1.1rem
+}
+#tryAgain{
+	margin-right: 0.3rem
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
